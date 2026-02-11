@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class NoteItem extends StatelessWidget {
@@ -23,10 +22,10 @@ class NoteItem extends StatelessWidget {
             subtitle: Padding(
               padding: const EdgeInsets.only(top: 16.0, bottom: 16),
               child: Text(
-                'build your career with Rami',
+                'Subtitle text with Rami Yahya',
                 style: TextStyle(
                   color: Colors.black.withValues(alpha: 0.5),
-                  fontSize: 20,
+                  fontSize: 18,
                 ),
               ),
             ),
